@@ -48,6 +48,94 @@ $on-tablet: 769px;
 $on-desktop: 1024px;
 $on-widescreen: 1152px;
 
+.sheetmusic-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #aaa;
+  color: #aaa !important;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.sheetmusic-btn:hover {
+  background-color: #aaa;
+  color: #fff !important;
+}
+
+// -------------------------------
+
+.sheet-music-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.sheet-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #333;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+  background-color: #121212; /* your site’s darker background */
+  color: #eee;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 280px;
+}
+
+.sheet-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.sheet-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.sheet-thumbnail {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.sheet-buttons {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.sheet-btn,
+.sheet-yt {
+  padding: 0.45rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #ddd;
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+  text-decoration: none;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  text-align: center;
+  min-width: 100px;
+}
+
+.sheet-btn:hover,
+.sheet-yt:hover {
+  background-color: #2b2b2b;
+  border-color: #666;
+  color: #fff;
+}
+
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;

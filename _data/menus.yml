@@ -2,15 +2,15 @@
   url: /
   external: false
 
-- title: archive
+- title: blog
   url: /archive/
   external: false
 
-- title: about
+- title: SheetMusic
   url: /about/
-  external: false # set true if you using external link, see below
+  external: false
 
-# Example:
-# - title: github
-#   url: https://github.com/piharpi/jekyll-klise
-#   external: true
+- title: Youtube
+  url: https://www.youtube.com/@TanishqSadanala
+  external: true
+
