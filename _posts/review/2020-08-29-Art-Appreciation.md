@@ -7,8 +7,6 @@ excerpt: A personal reflection on the decline of art appreciation and what it me
 tags: [art, society, reflection, culture]
 ---
 
-# Art Appreciation Is Declining
-
 ---
 
 **Why should we appreciate art?**  
